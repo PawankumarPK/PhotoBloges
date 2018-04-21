@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
     tools:context="com.company.photoblogger.NewPostActivity">
 
     <android.support.v7.widget.Toolbar
@@ -19,7 +20,7 @@
     <ImageView
         android:id="@+id/new_post_image"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="330dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

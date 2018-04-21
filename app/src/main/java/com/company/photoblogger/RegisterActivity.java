@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,7 +23,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText reg_pass_field;
     private EditText reg_confirm_pass_field;
     private Button reg_btn;
-    private Button reg_login_btn;
+    private TextView reg_login_btn;
     private ProgressBar reg_progress;
 
     private FirebaseAuth mAuth;

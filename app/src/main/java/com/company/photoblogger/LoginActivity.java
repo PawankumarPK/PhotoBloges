@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText loginEmailText;
     private EditText loginPassText;
     private Button loginBtn;
-    private Button loginRegBtn;
+    private TextView loginRegBtn;
 
     private FirebaseAuth mAuth;
 

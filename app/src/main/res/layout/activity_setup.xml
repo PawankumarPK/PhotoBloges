@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
     tools:context="com.company.photoblogger.SetupActivity">
 
 
@@ -13,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></android.support.v7.widget.Toolbar>
@@ -40,6 +42,7 @@
         android:layout_marginTop="64dp"
         android:ems="10"
         android:hint="@string/setup_name_hint_text"
+        android:textColorHint="#ffffff"
         android:inputType="textPersonName"
         android:padding="15dp"
         android:textSize="18sp"

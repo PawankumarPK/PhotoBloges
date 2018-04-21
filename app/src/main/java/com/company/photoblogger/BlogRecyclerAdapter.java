@@ -96,7 +96,7 @@ public class BlogRecyclerAdapter extends RecyclerView.Adapter<BlogRecyclerAdapte
             }
         });
         long milliseconds = blog_list.get(position).getTimestamp().getTime();
-        String dateString = DateFormat.format("MM/dd/yyyy",new Date(milliseconds)).toString();
+        String dateString = DateFormat.format("dd/MM/yyyy",new Date(milliseconds)).toString();
         holder.setTime(dateString);
 
         //Get Like count
@@ -232,7 +232,7 @@ public class BlogRecyclerAdapter extends RecyclerView.Adapter<BlogRecyclerAdapte
         public void updateLikesCount(int count){
 
             blogLikeCount = mView.findViewById(R.id.blog_like_count);
-            blogLikeCount.setText(count + " Likes");
+            blogLikeCount.setText(count + " ");
 
         }
 
